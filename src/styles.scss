@@ -1,1 +1,110 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Tajawal:wght@400;500;700;850;900&display=swap');
+
+:root {
+  /* Common variables */
+  --font-arabic: 'Cairo', 'Tajawal', sans-serif;
+  --font-english: 'Outfit', sans-serif;
+
+  /* Light Theme Variables */
+  --bg-primary: #f6f7fa;
+  --bg-secondary: #ffffff;
+  --bg-sticky: rgba(246, 247, 250, 0.85);
+  --bg-input: #ebeef5;
+  --bg-skeleton: #e4e7eb;
+  --shimmer-hover: #f1f3f6;
+  --border-color: rgba(0, 0, 0, 0.05);
+
+  --text-primary: #12141a;
+  --text-secondary: #4f586a;
+  --text-tertiary: #8b96ad;
+
+  --accent-primary: #e07a5f; /* Warm terracotta premium restaurant tone */
+  --bg-unavailable: #f3f4f6;
+  --status-unavailable-bg: #fee2e2;
+  --status-unavailable-text: #ef4444;
+
+  --btn-phone-bg: #eff6ff;
+  --btn-phone-text: #1d4ed8;
+  --btn-wa-bg: #ecfdf5;
+  --btn-wa-text: #047857;
+  --btn-loc-bg: #fef3c7;
+  --btn-loc-text: #b45309;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+}
+
+body.dark-theme {
+  /* Dark Theme Variables */
+  --bg-primary: #0a0b0d;
+  --bg-secondary: #12141c;
+  --bg-sticky: rgba(10, 11, 13, 0.85);
+  --bg-input: #1a1e2b;
+  --bg-skeleton: #1c2030;
+  --shimmer-hover: #262c42;
+  --border-color: rgba(255, 255, 255, 0.06);
+
+  --text-primary: #f1f3f7;
+  --text-secondary: #9aa5b6;
+  --text-tertiary: #626c7e;
+
+  --accent-primary: #f08a5d;
+  --bg-unavailable: #171922;
+  --status-unavailable-bg: rgba(239, 68, 68, 0.15);
+  --status-unavailable-text: #fca5a5;
+
+  --btn-phone-bg: rgba(29, 78, 216, 0.15);
+  --btn-phone-text: #60a5fa;
+  --btn-wa-bg: rgba(4, 120, 87, 0.15);
+  --btn-wa-text: #34d399;
+  --btn-loc-bg: rgba(180, 83, 9, 0.15);
+  --btn-loc-text: #fbbf24;
+
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.5);
+  --shadow-sm: 0 4px 6px -1px rgba(0,0,0,0.4);
+  --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.3);
+  --shadow-lg: 0 20px 25px -5px rgba(0,0,0,0.4);
+}
+
+/* Base resets */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-arabic);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body[lang="en"] {
+  font-family: var(--font-english);
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar globally for a neat aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}

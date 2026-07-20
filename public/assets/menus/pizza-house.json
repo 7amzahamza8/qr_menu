@@ -1,0 +1,77 @@
+{
+  "restaurant": {
+    "name": "بيت البيتزا الإيطالي",
+    "logo": "assets/images/pizza_logo.png",
+    "coverImage": "assets/images/pizza_cover.png",
+    "description": "بيتزا نابوليتانية مخبوزة على الحطب وتشكيلة إيطالية فاخرة بجبنة الموتزاريلا الطازجة.",
+    "phone": "+966555555555",
+    "address": "الرياض، شارع التحلية - مقابل برج الفيصلية",
+    "locationUrl": "https://maps.google.com/?q=Riyadh"
+  },
+  "categories": [
+    {
+      "name": "البيتزا النابوليتانية",
+      "items": [
+        {
+          "name": "بيتزا مارغريتا كلاسيك",
+          "description": "صلصة طماطم سان مارزانو، موزاريلا طازجة، ريحان أخضر، زيت زيتون بكر ممتاز وطهي في فرن الحطب.",
+          "price": 38,
+          "image": "assets/images/pizza_cover.png",
+          "available": true
+        },
+        {
+          "name": "بيتزا بيبيروني إيطالي",
+          "description": "صلصة طماطم، موزاريلا، شرائح من البيبيروني الفاخر مع رشة أوريغانو بري.",
+          "price": 45,
+          "image": "assets/images/pizza_cover.png",
+          "available": true
+        },
+        {
+          "name": "بيتزا فصول أربعة",
+          "description": "أربعة نكهات مقسمة: فطر، بيبروني، زيتون أسود، وتشكيلة أجبان مشكلة.",
+          "price": 48,
+          "image": "assets/images/pizza_cover.png",
+          "available": false
+        }
+      ]
+    },
+    {
+      "name": "الباستا والمعكرونة",
+      "items": [
+        {
+          "name": "ألفريدو باستا بالدجاج",
+          "description": "معكرونة فيتوتشيني كريمية بصلصة ألفريدو الغنية مع صدور الدجاج الفاخرة والفطر والبارميزان.",
+          "price": 42,
+          "image": "assets/images/pizza_cover.png",
+          "available": true
+        },
+        {
+          "name": "سباغيتي بولونيز كلاسيك",
+          "description": "معكرونة سباغيتي إيطالية مع صلصة اللحم المفروم والطماطم المطهوة ببطء على الطريقة التقليدية.",
+          "price": 39,
+          "image": "assets/images/pizza_cover.png",
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "الحلويات والمشروبات",
+      "items": [
+        {
+          "name": "تيراميسو إيطالي فاخر",
+          "description": "الحلوى الإيطالية الشهيرة المكونة من بسكويت الليدي فينغر المشرب بالقهوة الاسبريسو وكريمة الماسكاربوني.",
+          "price": 28,
+          "image": "assets/images/pizza_cover.png",
+          "available": true
+        },
+        {
+          "name": "عصير رمان طبيعي طازج",
+          "description": "عصير رمان معصور بارداً يومياً بدون إضافة سكر.",
+          "price": 15,
+          "image": "assets/images/pizza_cover.png",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
