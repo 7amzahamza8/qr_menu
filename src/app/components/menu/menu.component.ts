@@ -1,4 +1,5 @@
 import { Component, input, signal, computed, inject, OnInit, OnDestroy, effect, ElementRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { MenuService } from '../../services/menu.service';
 import { RestaurantMenu } from '../../interfaces/menu.interface';
 import { Router, RouterModule } from '@angular/router';
@@ -7,7 +8,11 @@ import { SkeletonComponent } from '../shared/skeleton.component';
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [RouterModule, SkeletonComponent],
+  imports: [ CommonModule,
+
+    RouterModule,
+
+    SkeletonComponent],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.scss'
 })
