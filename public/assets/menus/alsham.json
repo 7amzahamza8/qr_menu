@@ -16,21 +16,21 @@
           "name": "شاورما عربي دجاج",
           "description": "شاورما دجاج مقطعة، تقدم مع الثومية والبطاطس والمخلل الفاخر.",
           "price": 120,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/chicken_shawarma.jpg",
           "available": true
         },
         {
           "name": "شاورما عربي لحم",
           "description": "شاورما لحم بلدية مقطعة، تقدم مع الطحينة والمخلل والبيواز اللذيذ.",
           "price": 140,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/beef_shawarma.jpg",
           "available": true
         },
         {
           "name": "ساندوتش شاورما سوبر دجاج",
           "description": "ساندوتش ثنائية الحجم بخبز الصاج المحمص مع الثوم والمخلل.",
           "price": 70,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/chicken_shawarma_sandwich.jpg",
           "available": false
         }
       ]
@@ -42,21 +42,21 @@
           "name": "كباب حلبي بالباذنجان",
           "description": "سيخ كباب لحم غنم مشوي مع قطع الباذنجان المتبل وتوابل شامية فاخرة.",
           "price": 280,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/eggplant_kebab.jpg",
           "available": true
         },
         {
           "name": "شيش طاووق سبيشال",
           "description": "قطع صدر الدجاج المتبلة بصلصة الليمون والثوم المشوية على الفحم اللذيذ.",
           "price": 220,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/shish_taouk.jpg",
           "available": true
         },
         {
           "name": "مشاوي مشكل عائلي",
           "description": "كيلو مشكل من الكباب، الشيش طاووق، والأوصال مع البصل المشوي والخبز البيواز.",
           "price": 850,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/mixed_grill.jpg",
           "available": true
         }
       ]
@@ -68,21 +68,21 @@
           "name": "حمص بيروتي باللحمة والصنوبر",
           "description": "حمص مطحون ناعم مع زيت الزيتون البكر وصنوبر محمص وقطع لحم غنم طازجة.",
           "price": 95,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/hummus_meat.jpg",
           "available": true
         },
         {
           "name": "تبولة شامية حامضة",
           "description": "بقدونس مفروم ناعم مع البندورة، النعناع، البرغل وزيت الزيتون والليمون.",
           "price": 60,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/tabbouleh.jpg",
           "available": true
         },
         {
           "name": "فتوش بدبس الرمان",
           "description": "خضار موسمية مشكلة مع مخلل، سماق، خبز محمص ودبس الرمان الطبيعي.",
           "price": 65,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/fattoush.jpg",
           "available": true
         }
       ]

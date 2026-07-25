@@ -16,21 +16,21 @@
           "name": "بيتزا مارغريتا كلاسيك",
           "description": "صلصة طماطم سان مارزانو، موزاريلا طازجة، ريحان أخضر، زيت زيتون بكر ممتاز وطهي في فرن الحطب.",
           "price": 38,
-          "image": "assets/images/pizza_cover.png",
+          "image": "assets/images/items/margherita_pizza.jpg",
           "available": true
         },
         {
           "name": "بيتزا بيبيروني إيطالي",
           "description": "صلصة طماطم، موزاريلا، شرائح من البيبيروني الفاخر مع رشة أوريغانو بري.",
           "price": 45,
-          "image": "assets/images/pizza_cover.png",
+          "image": "assets/images/items/pepperoni_pizza.jpg",
           "available": true
         },
         {
           "name": "بيتزا فصول أربعة",
           "description": "أربعة نكهات مقسمة: فطر، بيبروني، زيتون أسود، وتشكيلة أجبان مشكلة.",
           "price": 48,
-          "image": "assets/images/pizza_cover.png",
+          "image": "assets/images/items/four_seasons_pizza.jpg",
           "available": false
         }
       ]
@@ -42,14 +42,14 @@
           "name": "ألفريدو باستا بالدجاج",
           "description": "معكرونة فيتوتشيني كريمية بصلصة ألفريدو الغنية مع صدور الدجاج الفاخرة والفطر والبارميزان.",
           "price": 42,
-          "image": "assets/images/pizza_cover.png",
+          "image": "assets/images/items/chicken_alfredo.jpg",
           "available": true
         },
         {
           "name": "سباغيتي بولونيز كلاسيك",
           "description": "معكرونة سباغيتي إيطالية مع صلصة اللحم المفروم والطماطم المطهوة ببطء على الطريقة التقليدية.",
           "price": 39,
-          "image": "assets/images/pizza_cover.png",
+          "image": "assets/images/items/spaghetti_bolognese.jpg",
           "available": true
         }
       ]
@@ -61,14 +61,14 @@
           "name": "تيراميسو إيطالي فاخر",
           "description": "الحلوى الإيطالية الشهيرة المكونة من بسكويت الليدي فينغر المشرب بالقهوة الاسبريسو وكريمة الماسكاربوني.",
           "price": 28,
-          "image": "assets/images/pizza_cover.png",
+          "image": "assets/images/items/tiramisu.jpg",
           "available": true
         },
         {
           "name": "عصير رمان طبيعي طازج",
           "description": "عصير رمان معصور بارداً يومياً بدون إضافة سكر.",
           "price": 15,
-          "image": "assets/images/pizza_cover.png",
+          "image": "assets/images/items/pomegranate_juice.jpg",
           "available": true
         }
       ]

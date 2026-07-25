@@ -16,21 +16,21 @@
           "name": "كيك الشوكولاتة الفاخرة",
           "description": "كيكة الشوكولاتة البلجيكية الغنية مع طبقات من موس الشوكولاتة الداكنة وجناش الشوكولاتة اللامع.",
           "price": 24,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/chocolate_cake.jpg",
           "available": true
         },
         {
           "name": "كرواسون زبدة فرنسي",
           "description": "معجنات الكرواسون المورقة المخبوزة طازجاً يومياً بالزبدة الفرنسية النقية.",
           "price": 12,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/croissant.jpg",
           "available": true
         },
         {
           "name": "ماكرون مشكل عبوة عائلية",
           "description": "علبة تحتوي على 12 حبة ماكرون بمذاقات مشكلة: الفانيليا، التوت، الفستق والشوكولاتة.",
           "price": 55,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/macarons.jpg",
           "available": true
         }
       ]
@@ -42,7 +42,7 @@
           "name": "سبانيش لاتيه بارد",
           "description": "حليب طازج مع قهوة إسبريسو وحليب مكثف محلى مع قطع الثلج.",
           "price": 18,
-          "image": "assets/images/alsham_cover.png",
+          "image": "assets/images/items/spanish_latte.jpg",
           "available": true
         },
         {
@@ -50,14 +50,14 @@
           "description": "جرعة إسبريسو غنية ممزوجة مع الحليب المبخر ورغوة حليبية مخملية.",
           "price": 16,
           "available": true,
-          "image": "assets/images/alsham_cover.png"
+          "image": "assets/images/items/cappuccino.jpg"
         },
         {
           "name": "كيمكس قهوة فلتر مقطرة",
           "description": "قهوة اثيوبية مقطرة بأداة الكيمكس وتتميز بإبراز نكهة القهوة الفاكهية المتوازنة.",
           "price": 20,
           "available": true,
-          "image": "assets/images/alsham_cover.png"
+          "image": "assets/images/items/chemex.jpg"
         }
       ]
     }
