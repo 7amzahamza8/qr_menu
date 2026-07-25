@@ -20,13 +20,6 @@
           "available": true
         },
         {
-          "name": "مخبوزات 67",
-          "description": "منير بيتعاق ب radien",
-          "price": 9999,
-          "image": "assets/images/alsham_cover.png",
-          "available": true
-        },
-        {
           "name": "كرواسون زبدة فرنسي",
           "description": "معجنات الكرواسون المورقة المخبوزة طازجاً يومياً بالزبدة الفرنسية النقية.",
           "price": 12,
